@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Babatira Furniture",
     images: [
       {
-        url: "/images/1.webp",
+        url: "/images/2.webp",
         width: 1200,
         height: 630,
       },
