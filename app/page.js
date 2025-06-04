@@ -20,7 +20,6 @@ export default function Home() {
         transition={{ duration: 0.5 }}
       >
         <Header />
-        <main className="overflow-hidden">
           <Hero />
           <Statistic />
           <About />
@@ -29,7 +28,6 @@ export default function Home() {
           <WhyUs />
           <Testimonials />
           <Contact />
-        </main>
         <Footer />
       </motion.div>
     </>
