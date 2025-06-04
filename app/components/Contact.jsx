@@ -52,7 +52,7 @@ export default function ModernContact() {
                 <MapPin className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-3">Visit Our Showroom</h3>
-              <p className="text-gray-300 mb-4">12 Industrial Avenue, Ikeja, Lagos, Nigeria</p>
+              <p className="text-gray-300 mb-4">12 Unguwa uku, Tarauni, kano, Nigeria</p>
               <button 
                 onClick={() => window.open('https://maps.google.com/?q=12+Industrial+Avenue+Ikeja+Lagos+Nigeria', '_blank')}
                 className="flex items-center text-orange-400 hover:text-orange-300 transition-colors"

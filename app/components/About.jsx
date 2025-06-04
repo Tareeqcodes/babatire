@@ -62,7 +62,7 @@ export default function About() {
                 alt="Our workshop"
                 className="rounded-lg shadow-lg w-full"
               />
-              <div className="absolute -bottom-16 right-20 md:-bottom-6 md:-left-6 bg-white p-2 rounded-lg shadow-lg block">
+              <div className="absolute -bottom-16 md:-bottom-6 md:-left-6 bg-white p-2 rounded-lg shadow-lg block">
                 <img
                   src="/images/1.webp"
                   alt="Our team"

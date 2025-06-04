@@ -28,12 +28,12 @@ export default function Statistic() {
                {[
                  { number: 20, suffix: '+', label: 'Years Experience', icon: Calendar },
                  { number: 5000, suffix: '+', label: 'Happy Clients', icon: Users },
-                 { number: 15000, suffix: '+', label: 'Pieces Crafted', icon: Award },
+                 { number: 1500, suffix: '+', label: 'Pieces Crafted', icon: Award },
                  { number: 98, suffix: '%', label: 'Satisfaction Rate', icon: Heart }
                ].map((stat, index) => (
                  <div 
                    key={index}
-                   className="text-center p-6 rounded-2xl bg-gradient-to-b from-white/5 to-white/0 border border-white/10 hover:border-amber-400/30 transition-all duration-300 group"
+                   className="text-center p-4 md:p-6 rounded-2xl bg-gradient-to-b from-white/5 to-white/0 border border-white/10 hover:border-amber-400/30 transition-all duration-300 group"
                  >
                    <div className="mb-4 flex justify-center">
                      <div className="w-12 h-12 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">

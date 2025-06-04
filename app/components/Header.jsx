@@ -31,7 +31,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full z-50 transition-all duration-300 ${
+      className={` w-full z-50 transition-all duration-300 ${
         scrolled ? 'bg-white text-black shadow-md py-2' : 'bg-white/90 py-4'
       }`}
     >
